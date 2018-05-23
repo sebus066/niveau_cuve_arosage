@@ -54,7 +54,7 @@ void loop() {
       else 
       {
       digitalWrite(led_orange,HIGH); //sinon le led orange est allumé
-      digitalWrite(led_bleu,LOW); // la led bleu s'etein quand la uuve et a moitier pleine ce qui signifie que on peut a nouveau utilisé la pompe
+      digitalWrite(led_bleu,LOW); // la led bleu s'étein quand la cuve est à moitier pleine ce qui signifie que on peut a nouveau utilisé la pompe
       digitalWrite(pompe,HIGH); // ferme le relay pour l'utilisation de la pompe 
       }
 
